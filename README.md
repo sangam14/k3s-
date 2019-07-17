@@ -47,4 +47,29 @@ ubuntu@ip-172-31-24-2:~$       curl -sfL https://get.k3s.io | sh -
 Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc/systemd/system/k3s.service.
 [INFO]  systemd: Starting k3s
 ubuntu@ip-172-31-24-2:~$ 
+
+ubuntu@ip-172-31-24-2:~$ k3s
+NAME:
+   k3s - Kubernetes, but small and simple
+
+USAGE:
+   k3s [global options] command [command options] [arguments...]
+
+VERSION:
+   v0.6.1 (7ffe802a)
+
+COMMANDS:
+     server   Run management server
+     agent    Run node agent
+     kubectl  Run kubectl
+     crictl   Run crictl
+     help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --debug        Turn on debug logs
+   --help, -h     show help
+   --version, -v  print the version
+ubuntu@ip-172-31-24-2:~$ 
+
 ```
+
